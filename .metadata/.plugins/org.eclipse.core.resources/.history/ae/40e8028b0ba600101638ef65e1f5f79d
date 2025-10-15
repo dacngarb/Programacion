@@ -1,0 +1,21 @@
+
+
+package estructuraRepetitiva;
+
+import java.util.Scanner;
+
+public class Multiplo3 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("Dame un numero");
+		int num1;
+		num1 = teclado.nextInt();
+		
+		System.out.print("Dame un numero");
+		int num2;
+		num2 = teclado.nextInt();
+	}
+
+}

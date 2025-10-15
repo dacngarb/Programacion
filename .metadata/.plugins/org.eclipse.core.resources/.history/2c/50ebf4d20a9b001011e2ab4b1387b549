@@ -1,0 +1,24 @@
+/*
+ * Descripción: enumerar datos
+ * Autor: David Cantero
+ * Echa: 26/09/2025
+ */
+
+package tiposVariables;
+
+public class TiposEnumerados {
+
+	public enum Estación {VERANO, OTOÑO, INVIERNO, PRIMAVERA};
+	
+	public static void main(String[] args) {
+		Estación estacionActual;
+		estacionActual = Estación.OTOÑO;
+		Estación estacionSiguiente; 
+        estacionSiguiente = Estación.MIERCOLES ;
+        
+        System.out.println("Hoy es: " + diaActual);
+        System.out.println("Mañana es " + diaSiguiente);  
+
+	}
+
+}

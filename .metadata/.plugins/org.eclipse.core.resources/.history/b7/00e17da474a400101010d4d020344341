@@ -1,0 +1,16 @@
+/*
+ * Descripción: Ejercicio ejemplo Switch
+ * Autor: David Cantero García
+ * Eecha: 08/10/2025
+ */
+
+package estrcturaIF;
+
+public class EjemploIfSwitch {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+/*
+ * Descripción: EJERCICIO EJEMPLO DO-WHILE QUE SALGA CONTADOR DESDE 100 A 0 de 10 en 10
+ * Autor: David Cantero García
+ * Eecha: 10/10/2025
+ */
+
+package estructuraRepetitiva;
+
+public class EjercicioWhile2 {
+
+	public static void main(String[] args) {
+		
+		int contador;
+		
+		System.out.print("Contardor desde 100 a 0 de 10 en 10");
+		
+		contador = 100;
+		while (contador > 0) {
+			System.out.print(" " + contador);
+			contador =  - 10;
+			
+			System.out.print ();
+		}
+		
+	}
+
+}

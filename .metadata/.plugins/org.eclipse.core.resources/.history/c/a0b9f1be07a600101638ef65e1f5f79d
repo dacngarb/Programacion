@@ -1,0 +1,44 @@
+/*
+ * Descripción: EJERCICIO EJEMPLO DO-WHILE QUE SALGA LOS NUMEROS MARCADOS
+ * Autor: David Cantero García
+ * Eecha: 10/10/2025
+ */
+
+package estructuraRepetitiva;
+
+import java.util.Scanner;
+
+public class EjercicioWhileNumerosSeguidos {
+
+	public static void main(String[] args) {
+			Scanner teclado = new Scanner(System.in);
+		
+			int inicio, fin, contador;
+			
+			System.out.print("Dame un número de inicio: ");
+			inicio = teclado.nextInt();
+			
+			System.out.print("Dame un número de fin: ");
+			fin = teclado.nextInt();
+			
+			if (inicio <= fin) { //secuencia creciente
+					contador = inicio;
+					
+				do {
+					System.out.println(" " + contador);
+					contador = contador  + 1;
+				} while (contador <= fin);
+				
+			} else {   //secuencia decreciente
+					contador = fin;
+					
+				do { 
+					System.out.println(" " + contador);
+					contador = contador  - 1;
+				} while (contador >= inicio);
+				
+			}
+			
+	}
+
+}

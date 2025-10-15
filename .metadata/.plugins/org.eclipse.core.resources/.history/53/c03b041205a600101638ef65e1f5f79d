@@ -1,0 +1,31 @@
+/*
+ * Descripción: ejemplo estructura do-While
+ * Autor: David Cantero García
+ * Eecha: 10/10/2025
+ */
+
+package estructuraRepetitiva;
+
+import java.util.Scanner;
+
+public class EjemploDoWhile {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int numero, inicio, fin, contador = 0, suma = 0;
+		
+		do {
+			System.out.println("Dame un número (0 para terminar): ");
+			numero = teclado.nextInt();
+			contador = contador + 1;
+			suma = suma + numero;
+			
+		}while (numero != 0 && contador >= numero);
+		
+		System.out.println("La suma es: " + suma + " y la cantidad de número es: " + contador);
+	
+		contador = contador - 1; //resto 1 a ccontador para no contar el 0
+		
+	}
+}

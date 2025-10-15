@@ -1,0 +1,41 @@
+/*
+ * Descripción: Ejercicio 4
+ * Autor: David Cantero García
+ * Echa: 25/09/2025
+ */
+
+
+package ejercicio4;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		byte a;
+		a = 111;
+		System.out.println("El valor de la variable de tipo byte es: " + a);
+		
+		short b; 
+		b = 24704;
+		System.out.println("El valor de la variable de tipo short es: " + b);
+		
+		int c; 
+		c = 647372676;
+		System.out.println("El valor de la variable de tipo entero es: " + c);
+		
+		char d;
+		d = 'D';
+		System.out.println("El valor de la variable de tipo caráter es: " + d);
+		
+		double e;
+		e = 0.74;
+		System.out.println("El valor de la variable de tipo número decimal es: " + e);
+		
+		float f;
+		f = 1,22d;
+		System.out.println("El valor de la variable de tipo número decimal es: " + e);
+		
+		
+		
+	}
+
+}

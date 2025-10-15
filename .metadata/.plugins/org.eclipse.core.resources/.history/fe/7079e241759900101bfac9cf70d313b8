@@ -1,0 +1,25 @@
+/*
+ * Descripción: Ejercicio 3
+ * Autor: David Cantero García
+ * Echa: 24/09/2025
+ */
+
+
+package ejercicio3;
+
+public class Ejercicio3 {
+	
+
+	public static void main (String args [])
+	{
+		//Crear dos variables de tipo int
+		
+		int num1;
+		num1 = 0;
+		
+		int num2;
+		num2 = 0;
+		System.out.println("Valor de la variable: " + num1 + num2 + "cm.");
+	}
+		
+}

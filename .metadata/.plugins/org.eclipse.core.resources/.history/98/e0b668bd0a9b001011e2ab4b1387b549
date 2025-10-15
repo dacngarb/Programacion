@@ -1,0 +1,24 @@
+/*
+ * Descripción: enumerar datos
+ * Autor: David Cantero
+ * Echa: 26/09/2025
+ */
+
+package tiposVariables;
+
+public class TiposEnumerados {
+
+	public enum Dias {LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO};
+	
+	public static void main(String[] args) {
+		Dias estacionactual;
+		estacionactual = Dias.VIERNES;
+        Dias estacionSiguiente 
+        = Dias.MIERCOLES ;
+        
+        System.out.println("Hoy es: " + diaActual);
+        System.out.println("Mañana es " + diaSiguiente);  
+
+	}
+
+}

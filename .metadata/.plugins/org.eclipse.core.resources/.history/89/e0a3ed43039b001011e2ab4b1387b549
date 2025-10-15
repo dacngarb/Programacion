@@ -1,0 +1,16 @@
+/*
+ * Descripción: Como funciona el operador condicional
+ * Autor: David Cantero
+ * Eecha: 26/09/2025
+ */
+
+package operadores;
+
+public class EjemploOPCondicional {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

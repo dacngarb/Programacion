@@ -1,0 +1,10 @@
+package estructuraRepetitiva;
+
+public class Multiplo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,44 @@
+/*
+ * Descripción: Ejercicio 3
+ * Autor: David Cantero García
+ * Echa: 24/09/2025
+ */
+
+
+package ejercicio3;
+
+public class Ejercicio3 {
+	
+
+	public static void main (String args [])
+	{
+		//Crear dos variables de tipo int
+		
+		int num1;
+		num1 = 0; //Dandole valor a la variable
+		
+		int num2;
+		num2 = 0;
+		System.out.println("Valor de la variable num1: " + num1 + "de nota");
+		System.out.println("Valor de la variable num2: " + num2 + "personas");
+		
+		//Crear dos variables de tipo double
+		
+		double val1;
+		val1 = 1.5;
+		System.out.println("Valor de la variable num2: " + val1 + "kg");
+		
+		double val2;
+		val2 = 2.5;
+		System.out.println("Valor de la variable num2: " + val2 + "cm");
+	
+		
+		String nombre = "David";
+		String apellido = "Cantero"; 
+		
+		System.out.println("Mi nombre es " + nombre + " y mi apellido es " + apellido);
+		
+		
+	}
+		
+}

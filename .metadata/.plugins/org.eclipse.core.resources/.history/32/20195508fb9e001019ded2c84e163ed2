@@ -1,0 +1,27 @@
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in); //Se añade Scanner para que pida al usuario datos 
+		
+		String nombre;
+		System.out.print("Nombre: ");
+		nombre = teclado.nextLine();
+		
+		String apellidos;
+		System.out.print("Apellidos: ");
+		apellidos = teclado.nextLine();
+		
+		String fechaNacimiento;
+		System.out.print("Fecha de nacimiento: ");
+		fechaNacimiento = teclado.nextLine();
+		
+		int salario;
+		System.out.print("Salario bruto: ");
+		salario = teclado.nextInt();
+	}
+
+}

@@ -1,0 +1,62 @@
+/*
+ * Descripción: Ejercicio 5
+ * Autor: David Cantero García
+ * Eecha: 08/10/2025
+ */
+
+package ejercicio5;
+
+import java.util.Scanner;
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+		System.out.print("Dime tu nombre: ");
+		String nombre;
+		nombre = teclado.nextLine();
+		
+		System.out.print("Dime tus apellidos: ");
+		String apellido;
+		apellido = teclado.nextLine();
+		
+		System.out.print("Dime tu diclo formativo: ");
+		String cicloFormativo;
+		cicloFormativo = teclado.nextLine();
+		
+		System.out.print("Dime tu nota academica: ");
+		int notaAcademica;
+		notaAcademica = teclado.nextInt();
+		
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Apellido: " + apellido);
+		System.out.println("Ciclo Formativo: " + cicloFormativo);
+		
+		
+		//Declaro que segungun la nota que tengo le pondra una de estas notas
+		if (notaAcademica < 5) {
+			System.out.print("Nota: " + notaAcademica + " Insuficiente");
+		}else {
+			if (notaAcademica < 6) {
+				System.out.print("Nota: " + notaAcademica + " Suficiente");
+			}else {
+				if (notaAcademica < 7) {
+					System.out.print("Nota: " + notaAcademica + " Bien");
+				}else {
+					if (notaAcademica < 9) {
+						System.out.print("Nota: " + notaAcademica + " Notable");
+					}else {
+						if (notaAcademica <= 10) {
+							System.out.print("Nota: " + notaAcademica + " Sobresaliente");
+						}
+					}
+				}
+			}
+				
+		}
+		
+		
+	}
+
+}

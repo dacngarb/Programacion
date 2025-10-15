@@ -1,0 +1,12 @@
+package mientras;
+
+import java.util.Scanner;
+
+public class Mientras {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+	}
+
+}

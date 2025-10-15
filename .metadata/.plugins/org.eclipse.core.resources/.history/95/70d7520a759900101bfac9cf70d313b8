@@ -1,0 +1,16 @@
+/*
+ * Descripción: Ejercicio 3
+ * Autor: David Cantero García
+ * Echa: 24/09/2025
+ */
+
+
+package ejercicio3;
+
+public class Ejercicio3 {
+	
+
+	public static void main (String args [])
+	{
+
+}

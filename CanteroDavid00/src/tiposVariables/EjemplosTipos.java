@@ -1,0 +1,37 @@
+/*
+ * Descripción: Mostrar en consola un texto
+ * Autor: David Cantero
+ * Echa: 22/09/2025
+ */
+package tiposVariables; 
+
+public class EjemplosTipos {
+	public static void main(String[] args) {
+		
+		
+		int numAlumnos; //Declaramos la variable numAlumnos
+		numAlumnos = 0;
+		System.out.println("Valor de la variable: " + numAlumnos); //Se utiliza "println" para hacer que la sentencia pase a otra linea
+		
+		numAlumnos = 12;
+		System.out.println("Valor de la variable: " + numAlumnos);
+		
+		double alturaAlumnos = 1.75; //Declaramos la variable alturaAlumnos
+		System.out.println("Valor de la variable: " + alturaAlumnos + "cm."); //Para añadir "cm." se añade un + al contenido de la variable y añadirlo
+		
+		char letraDni;
+		letraDni = 'K';
+		System.out.println("Valor de la variable: " + letraDni);
+		
+		String nombreAlumno = "\"David\"";
+		System.out.println("Valor de la variable: " + nombreAlumno);
+		
+		final int NUM_MAX_ALUMNOS = 25; //declaramos una constante, la convenciones se escribe en mayuscula y separa las palabras y numeros en _
+		System.out.println("Valor de la constante: " + NUM_MAX_ALUMNOS);
+		//En constante se tiene que declara el valor a la vez que se inicializa
+		
+		final String GRUPO = "DAW1";
+		System.out.println("Valor del grupo constante: " + GRUPO);
+	}	
+	
+}

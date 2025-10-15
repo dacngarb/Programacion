@@ -1,0 +1,10 @@
+package entradaDatos;
+
+public abstract class PeticiónDeDatos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

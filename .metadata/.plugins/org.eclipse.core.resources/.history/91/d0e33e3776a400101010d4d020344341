@@ -1,0 +1,50 @@
+/*
+ * Descripción: Ejercicio ejemplo Switch
+ * Autor: David Cantero García
+ * Eecha: 08/10/2025
+ */
+
+package estrcturaIF;
+
+import java.util.Scanner;
+
+public class EjemploSwitch {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("Dime tu nota academica: ");
+		int notaAcademica;
+		notaAcademica = teclado.nextInt();
+		
+		//Declaro que segungun la nota que tengo le pondra una de estas notas
+		switch (notaAcademica) {
+			case 1,2,3,4: {
+				System.out.println("Insuficiente");
+				break;
+			}
+			case 5: { 
+				System.out.println("Suficiente");
+				break;
+			}
+			case 6: {
+				System.out.println("Bien");
+				break;
+			}
+			case 7,8: {	
+				System.out.println("Notable");
+				break;
+			}
+			case 9,10: {	
+				System.out.println("Sobresaliente");
+				break;
+			}
+			default:{
+				System.out.println(notaAcademica + " no valido");
+			}
+			
+		}
+		System.out.println("Nota: " + notaAcademica);
+	}
+
+}

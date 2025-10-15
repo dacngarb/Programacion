@@ -1,0 +1,18 @@
+/*
+ * Descripción: Ejercicio 5
+ * Autor: David Cantero García
+ * Eecha: 08/10/2025
+ */
+
+package ejercicio6;
+
+import java.util.Scanner;
+
+public class Ejercicio6 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+	}
+
+}

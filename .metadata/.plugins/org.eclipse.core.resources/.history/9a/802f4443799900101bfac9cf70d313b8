@@ -1,0 +1,29 @@
+/*
+ * Descripción: Peticion de datos
+ * Autor: YO
+ * Echa: 24/09/2025
+ */
+
+package entradaDatos;
+
+import java.util.Scanner;
+
+public abstract class PeticiónDeDatos {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int edadAlumno;
+		System.out.print("Dame tu edad:");
+		edadAlumno = teclado.nextInt();
+		System.out.println("La edad es: " + edadAlumno);
+		
+		teclado.nextLine();
+		String nombreAlumno;
+		System.out.print("Dame tu nombre:");
+		nombreAlumno = teclado.nextLine();
+		System.out.println("El nombre es: " + nombreAlumno);
+		
+	}
+
+}

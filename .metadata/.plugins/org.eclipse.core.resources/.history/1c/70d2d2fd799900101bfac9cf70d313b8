@@ -1,0 +1,34 @@
+/*
+ * Descripción: Peticion de datos
+ * Autor: YO
+ * Echa: 24/09/2025
+ */
+
+package entradaDatos;
+
+import java.util.Scanner;
+
+public abstract class PeticiónDeDatos {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int edadAlumno;
+		System.out.print("Dame tu edad:");
+		edadAlumno = teclado.nextInt(); //nextInt para datos Int
+		System.out.println("La edad es: " + edadAlumno);
+		
+		teclado.nextLine(); //Despues de pedir valor y antes de pedir cadena de caracteres
+		String nombreAlumno;
+		System.out.print("Dame tu nombre:");
+		nombreAlumno = teclado.nextLine(); //nextLine para datos String
+		System.out.println("El nombre es: " + nombreAlumno);
+		
+		teclado.nextDouble();
+		Double pesoAlumno;
+		System.out.print("Dame tu peso:");
+		pesoAlumno = teclado.nextDouble(); //
+		System.out.println("El peso es: " + pesoAlumno + "kg");
+	}
+
+}

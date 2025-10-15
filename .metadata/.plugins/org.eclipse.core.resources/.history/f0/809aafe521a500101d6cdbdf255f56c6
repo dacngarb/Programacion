@@ -1,0 +1,31 @@
+/*
+ * Descripción: EJEMPLO ESTRUCTURA WHILE
+ * Autor: David Cantero García
+ * Eecha: 09/10/2025
+ */
+
+package mientras;
+
+import java.util.Scanner;
+
+public class Mientras {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int num, suma = 0, contador;
+		System.out.println("Dame un numero: ");
+		num = teclado.nextInt();
+		contador = 1;
+		
+		while (num != 0 && contador  == 8) {
+			suma = suma + num; //acumulador, acumula en sum lo que de num y lo suma
+			System.out.println("Dame un numero: ");
+			num = teclado.nextInt();
+			contador = contador + 1; //contador++
+		}
+		System.out.println("La suma es: " + suma);
+		
+	}
+
+}

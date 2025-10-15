@@ -1,0 +1,15 @@
+/*
+ * Descripción: Peticion de datos
+ * Autor: YO
+ * Echa: 24/09/2025
+ */
+
+package entradaDatos;
+
+public abstract class PeticiónDeDatos {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+	}
+
+}

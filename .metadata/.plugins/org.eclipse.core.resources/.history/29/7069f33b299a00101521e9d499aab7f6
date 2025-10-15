@@ -1,0 +1,20 @@
+/*
+ * Descripción: Ejercicio 4
+ * Autor: David Cantero García
+ * Echa: 25/09/2025
+ */
+
+
+package ejercicio4;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		byte a;
+		a = 111;
+		System.out.println("EEl valor de la variable de tipo byte es: " + a);
+		
+
+	}
+
+}
